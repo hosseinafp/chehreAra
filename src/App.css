@@ -1,0 +1,20 @@
+.offerTitle{
+font-family: IRANYekanWeb;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: right;
+}
+.seeMore{
+font-family: IRANYekanWeb;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color:'#7F7F7F'
+}
+* {
+    font-family: IRANYekanWeb;
+  }

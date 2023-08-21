@@ -1,0 +1,97 @@
+@import url('./assets/fonts/Yekan.css');
+body {
+  margin: 0;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+/* background-color: black; */
+.box{
+  width: 10px;
+  height: 10px;
+}
+.pInput{
+  height: 41px;
+  background-color: #272A31;
+  border: none;
+}
+.prev{
+  position: absolute;
+  z-index: 10;
+  left: 1rem;
+  top: 17rem
+}
+.next{
+  position: absolute;
+  z-index: 10;
+  right: 1rem;
+  top: 17rem
+}
+.right-0{
+  right: -5px;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .right-0{
+    right: 0;
+  }
+  .desktop{
+    display: none;
+  }
+  .end-10{
+    right: -13px;
+  }
+  .bottom-0{
+    bottom: -5px !important;
+  }
+  .fsm{
+    font-size: 10px !important;
+  }
+  .fsm2{
+    font-size: 8px !important;
+  }
+  .fsmicon{
+    font-size: 35px !important;
+  }
+  .fs12{
+    
+  }
+}
+@media (min-width: 768px) {
+  .marginc{
+    margin-left: 7rem !important;
+    margin-right: 7rem !important;
+  }
+  .prev{
+    position: absolute;
+    z-index: 10;
+    left: 5rem;
+    top: 17rem
+  }
+  .next{
+    position: absolute;
+    z-index: 10;
+    right: 6rem;
+    top: 17rem
+  }
+  .mobile{
+    display: none;
+  }
+  .fsmicon{
+    font-size: 35px !important;
+  }
+  .fsm2{
+    font-size: 10px !important;
+  }
+  /* .fs14{
+    font-size: 14px !important;
+  } */
+}
+* {
+  font-family: 'IRANYekanWeb !important';
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
